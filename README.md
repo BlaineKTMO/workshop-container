@@ -95,7 +95,7 @@
 
 - Once it is built, run the container by doing
     ```bash
-    docker --network host -v /dev/shm:/dev/shm -t ros-container 
+    sudo docker run --network host --privileged -v /dev/shm:/dev/shm -it ros-container /bin/bash 
     ```
 
 - If everything worked properly, you should see the following:
