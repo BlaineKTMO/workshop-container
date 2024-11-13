@@ -1,0 +1,6 @@
+[submodule "src/simple-line-follow"]
+	path = src/simple-line-follow
+	url = git@github.com:BlaineKTMO/simple-line-follow.git
+[submodule "src/joystick_control"]
+	path = src/joystick_control
+	url = git@github.com:waynerobotics/joystick_control.git
