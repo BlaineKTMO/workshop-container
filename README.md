@@ -95,7 +95,11 @@
 
 - Once it is built, run the container by doing
     ```bash
-    sudo docker run --network host --privileged -v /dev/shm:/dev/shm -it ros-container /bin/bash 
+    docker run -it \
+  -e DISPLAY=$DISPLAY \
+  -v /tmp/.X11-unix:/tmp/.X11-unix \
+  --privileged \
+  ros-container /bin/bash
     ```
 
 - If everything worked properly, you should see the following:
