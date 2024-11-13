@@ -67,6 +67,7 @@
     ```
     brew install git
     ```
+- Also install xQuartz, instructions found here: https://gist.github.com/sorny/969fe55d85c9b0035b0109a31cbcb088
 
 ## Using Docker
 - Open your terminal / wsl instance.
