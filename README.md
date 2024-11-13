@@ -97,3 +97,10 @@
     ```bash
     docker --network host -v /dev/shm:/dev/shm -t ros-container 
     ```
+
+- If everything worked properly, you should see the following:
+    ```bash
+    root@<Random>: /ros_ws#
+    ```
+
+## **You now have a ROS2 Environment!!**
