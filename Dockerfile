@@ -21,6 +21,7 @@ RUN apt-get update && apt-get install -y \
     ros-humble-ros-base \
     ros-humble-rqt-common-plugins \
     ros-humble-rviz2 \
+    ros-humble-turtlesim \
     && rm -rf /var/lib/apt/lists/*
 
 # Setup ROS 2 workspace (optional - to include default workspace)
